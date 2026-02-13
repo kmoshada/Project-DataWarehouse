@@ -1,0 +1,17 @@
+CREATE TABLE bronze.cust_az12 (
+    CID INT,
+    BDATE DATE,
+    GEN VARCHAR(1)
+);
+
+CREATE TABLE bronze.loc_a101 (
+    CID VARCHAR(20),
+    CNTRY VARCHAR(50)
+);
+
+CREATE TABLE bronze.px_cat_g1v2 (
+    ID INT,
+    CAT VARCHAR(50),
+    SUBCAT VARCHAR(50),
+    MAINTENANCE VARCHAR(5)
+);
