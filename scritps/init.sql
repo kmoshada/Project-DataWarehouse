@@ -1,7 +1,7 @@
 --DROP DATABASE IF EXISTS datawarehouse;
---CREATE DATABASE datawarehouse;
+CREATE DATABASE datawarehouse;
 
---USE datawarehouse;
+USE datawarehouse;
 
 CREATE SCHEMA bronze;
 CREATE SCHEMA silver;
